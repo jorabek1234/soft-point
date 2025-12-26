@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.bog-bolim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hayvonlar {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    gap: 20px;
+}
+
+.hayvon {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px lightgray;
+}
+
+.hayvon h3 {
+    margin: 15px 0 10px;
+    color: black;
+}
+
+.hayvon p {
+    color: gray;
+    font-size: 14px;
+}
+
+.qush {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+}
+
+
+.burgut {
+    background-color: coral;
+}
+
+.laylak {
+    background-color: mediumspringgreen;
+}
+
+.qaldirg‘och {
+    background-color: gold;
+}
+
+.tovus {
+    background-color: hotpink;
+}
+
+.ism-joyi h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.ism-joyi p {
+    color: dimgray;
+    max-width: 400px;
+}
+
+.tugmalar {
+    margin-top: 25px;
+}
+
+.ism {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ali {
+    background-color: black;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+}
+
+.vali {
+    color: red;
+}
+
+.rasm {
+    width: 75px;
+    height: 75px;
+}
