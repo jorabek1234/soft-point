@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9fefe;
+  margin: 0;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(34, 31, 27, 0.06);
+  
+  
+}
+
+.logo {
+  font-weight: 600;
+  color: #00c2a8;
+}
+
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+}
+
+
+.auto a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login {
+  color:#021206;
+}
+
+
+.profil {
+  background: white;
+  color: #F44545;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #F44545;
+  transition: 0.3s;
+}
+
+.profil:hover {
+  background:#F44545;
+  color: white;
+}
+
+
+.rempeyj {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  background-color: #8ee6c952;
+  
+}
+
+.rempeyj img {
+  height: 30px;
+}
