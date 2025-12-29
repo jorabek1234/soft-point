@@ -62,7 +62,7 @@
 .input {
     width: 1146px;
     height: 74px;
-    margin-left: 179px;
+    margin-left: 180px;
 }
 
 .cards .card1,
@@ -73,6 +73,7 @@
     border-radius: 10px;
     border: 1px solid black;
     z-index: 2;
+    background-color: white;
 }
 
 .cards {
@@ -161,8 +162,16 @@
     color: rgb(215, 90, 1);
     font-size: 20px;
 }
+.card1:hover{
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
+    border: none;
+}
+.card2:hover{
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
+    border: none;
+}
 
-.cards div:hover {
+ .card3:hover {
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
     border: none;
 }
@@ -190,10 +199,24 @@
   font-variation-settings:
     "wdth" 100;
 }
-.cards img{
+.ikirasm{
     width: 147px;
     height: 147px;
-    top: 60px;
-    left: 60px;
+    top: 120px;
+    left: 130px;
+    background-color: #F9D678;
+    border-radius: 100px;
+    position: relative;
+    box-shadow: 0px 0px 45px #F9D678;
     
+}
+.birrrasm{
+     width: 147px;
+    height: 147px;  
+    bottom: 135px;
+    right: 120px;
+    position: relative; 
+    background-color: #87D2BA;
+    border-radius: 100px;
+    box-shadow: 0px 0px 45px #8EE7CA;
 }
