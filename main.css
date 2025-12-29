@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f9fefe;
+  margin: 0;
+}
+/* salim */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 60px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(34, 31, 27, 0.06);
+}
+
+.logo {
+  font-weight: 600;
+  color: #00c2a8;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+}
+
+.auto a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login {
+  color: #021206;
+}
+
+.profil {
+  background: white;
+  color: #f44545;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #f44545;
+  transition: 0.3s;
+}
+
+.profil:hover {
+  background: #f44545;
+  color: white;
+}
+
+.rempeyj {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  background-color: #8ee6c952;
+}
+
+.rempeyj img {
+  height: 30px;
+}
+
+/* nurbek */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 100px 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.header_title span {
+  color: aqua;
+}
+
+p {
+  font-size: 20px;
+}
+
+.header_input {
+  width: 400px;
+  height: 65px;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header_input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.header_input button {
+  width: 120px;
+  height: 100%;
+  background-color: #f44545;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.header_title .download {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.header_img {
+  position: relative;
+}
+
+.header_img img {
+  width: 750px;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #fedf8b;
+  left: 80px;
+  top: 40px;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #87d2ba;
+  right: 40px;
+  bottom: 40px;
+  position: absolute;
+  box-shadow: 0 0 20px;
+  z-index: -1;
+}
+
+/* qahramon */
+
+.bog-bolim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin: 100px 0;
+}
+
+.hayvonlar {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+  gap: 20px;
+}
+
+.hayvon {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px lightgray;
+}
+
+.hayvon h3 {
+  margin: 15px 0 10px;
+  color: black;
+}
+
+.hayvon p {
+  color: gray;
+  font-size: 14px;
+}
+
+.qush {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+}
+
+.burgut {
+  background-color: coral;
+}
+
+.laylak {
+  background-color: mediumspringgreen;
+}
+
+.qaldirg‘och {
+  background-color: gold;
+}
+
+.tovus {
+  background-color: hotpink;
+}
+
+.ism-joyi h1 {
+  font-size: 36px;
+  color: black;
+}
+
+.ism-joyi p {
+  color: dimgray;
+  max-width: 400px;
+}
+
+.tugmalar {
+  margin-top: 25px;
+}
+
+.ism {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.ali {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+}
+
+.vali {
+  color: red;
+}
+
+.rasm {
+  width: 75px;
+  height: 75px;
+}
+
+/* hoji */
+
+.main {
+  display: flex;
+  justify-content: content;
+  gap: 100px;
+  padding: 0 40px;
+}
+
+.imgstyle {
+  width: 800px;
+}
+
+.h2 {
+  line-height: 18px;
+  font-weight: 700px;
+  color: grey;
+  font-family: sans-serif;
+  width: 480;
+  height: 87;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+.span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  gap: 30px;
+  color: black;
+}
+
+.style {
+  font-weight: 200px;
+  font-size: 40px;
+  gap: 50px;
+  line-height: 40px;
+  color: black;
+  width: 400px;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+
+/* Azim */
+
+.odam {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(242, 252, 249);
+  position: relative;
+  padding: 100px 0;
+  margin: 200px 0;
+}
+
+.katta {
+  border-radius: 6px;
+  border: 1px solid;
+  border: none;
+  margin-left: 150px;
+}
+
+.katta h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.katta p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.katta button {
+  padding: 15px 25px;
+  background: #c62828;
+  border: none;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.image {
+  width: 965px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* otabek */
+
+.h1plarniki {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1bb {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.plll {
+  width: 753px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.spp {
+  width: 266px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 15px;
+}
+
+.kichiktort {
+  width: 58px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.sppp {
+  font-size: 18px;
+}
+
+.kichiktort {
+  width: 58px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: #43ddaa;
+  display: flex;
+  align-items: center;
+}
+
+.kichik {
+  width: 17px;
+  height: 16px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-left: 35px;
+}
+
+.input {
+  width: 80%;
+  height: 74px;
+  margin-left: 180px;
+}
+
+.cards .card1,
+.card2,
+.card3 {
+  width: 361px;
+  height: 604px;
+  border-radius: 10px;
+  border: 1px solid black;
+  z-index: 2;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards div * {
+  margin-top: 20px;
+}
+
+.cards h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cards ol {
+  list-style: none;
+  line-height: 30px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.cards ol hr {
+  width: 359px;
+  margin-left: -20px;
+}
+
+.cards svg {
+  margin-top: -10px;
+}
+
+.spnnjjg {
+  margin-left: 110px;
+}
+
+.spnnh {
+  margin-left: 87px;
+}
+
+.lihi {
+  text-decoration: line-through;
+}
+
+.dollor {
+  font-size: 43px;
+  margin-left: 155px;
+  font-family: "Roboto", sans-serif;
+}
+
+.dollo {
+  margin-left: 130px;
+  font-size: 43px;
+  margin-bottom: -300px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cards button {
+  width: 239px;
+  height: 60px;
+  border-radius: 6px;
+  margin-left: 60px;
+  border: 2px solid;
+  margin-top: 35px;
+  cursor: pointer;
+  border-color: pink;
+  color: rgb(215, 90, 1);
+  font-size: 20px;
+}
+.card1:hover {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+.card2:hover {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.card3:hover {
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+.cards button:hover {
+  border: none;
+  color: white;
+  background-color: rgb(215, 90, 1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+
+  /* transform: scaleX(1.5);
+    transition: 0.5s; */
+}
+
+.cards button:active {
+  background-color: red;
+  text-decoration: line-through;
+  box-shadow: 0px 0px 20px red;
+}
+.font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.ikirasm {
+  width: 147px;
+  height: 147px;
+  top: 120px;
+  left: 130px;
+  background-color: #f9d678;
+  border-radius: 100px;
+  position: relative;
+  box-shadow: 0px 0px 45px #f9d678;
+}
+.birrrasm {
+  width: 147px;
+  height: 147px;
+  bottom: 135px;
+  right: 120px;
+  position: relative;
+  background-color: #87d2ba;
+  border-radius: 100px;
+  box-shadow: 0px 0px 45px #8ee7ca;
+}
+
+/* poyon */
+
+.varrak-footer {
+  background: #d6f8f1ff;
+  padding: 60px 0;
+  margin-top: 100px;
+}
+
+.osmon-container {
+  width: 1100px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.parvoz-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.qanot-blok .sarlavha {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #000;
+  font-family: "Poppins";
+}
+
+.izoh-matn,
+.havola {
+  color: #021206;
+  font-size: 14px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.royxat {
+  list-style: none;
+}
+
+.royxat li {
+  margin-bottom: 10px;
+}
+
+.belgi-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.nom-belgi {
+  font-size: 18px;
+  color: #24dc9f;
+}
+
+.yulduz-nuqta {
+  width: 26px;
+  height: 26px;
+  background: #4dd6b3;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.yulduzcha {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+}
