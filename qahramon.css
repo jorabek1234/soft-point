@@ -7,9 +7,9 @@ body {
 
 .bog-bolim {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 75px;
 }
 
 .hayvonlar {
